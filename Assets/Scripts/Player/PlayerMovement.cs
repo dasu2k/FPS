@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
 
         //applying gravity
 
-        isGrounded = Physics.CheckSphere(GroundCheck.position , -0.1f , Ground);
+        isGrounded = Physics.CheckSphere(GroundCheck.position , -0.4f , Ground);
 
         
         if(isGrounded && velocity.y <= 0f)
